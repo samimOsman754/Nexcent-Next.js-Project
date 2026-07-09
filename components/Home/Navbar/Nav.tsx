@@ -12,7 +12,7 @@ type Props = {
 const Nav = ({ openMobileNav }: Props) => {
   return (
     <nav className="bg-white shadow-sm">
-      <div className="flex items-center justify-between h-20 w-[90%] xl:w-[80%] mx-auto">
+      <div className="flex items-center justify-between h-20 w-[90%] xl:w-[80%] mx-auto z-100">
         {/* logo */}
         <div className="shrink-0">
           <Logo  />
